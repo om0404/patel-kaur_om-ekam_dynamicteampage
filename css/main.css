@@ -188,10 +188,25 @@ a {
 
 .lightbox:target { display: block; }
 
+/* #2 */
 
-/* l */
+#button1 {
+    margin-top: -10px;
+    margin-left: 590px;
+    background-color: black;
+    color: white;
+    transition: o.3s ease black;
+    font-size: 23px;
+    border: none;
+    border-radius: none;
+    box-sizing: border-box;
+    box-shadow: 0px 0 20px 20px white;  
+}
+#button1:hover{
+    color: black;
+}
 
-.lightbox1 {
+.lightbox2 {
     width: 100vw;
     height: 100vh;
 
@@ -200,7 +215,7 @@ a {
     left: 0;
 
     background-color: rgba(30, 30, 30, 30.85);
-    background-image: url('../images/logan2.JPG');
+    background-image: url('../images/ekam-2.jpg');
     background-repeat: no-repeat;
 
     background-size: 55vh;
@@ -212,7 +227,7 @@ a {
 }
 
 
-.lightbox_close1{
+.lightbox_close{
     margin-left: 1300px;
     font-size: 40px;
     color: white;
@@ -220,16 +235,17 @@ a {
 }
 
 
-.lightbox_close1:hover { opacity: 0.5; color: brown; }
+.lightbox_close:hover { opacity: 0.5; color: rgb(5, 77, 3); }
 
-.lightbox1 article {
+.lightbox2 article {
     width: 45%;
     margin-left: 40%;
 }
 
-.lb_text, .lb_heading { 
+.lb_heading {
     text-align: left;
     color: white;
+    padding-top: 130px;
 }
 
 .lb_text {
@@ -237,7 +253,9 @@ a {
     margin-left: 0;
     padding-top: 2em;
     color: white;
+    padding-top: 150px;
 }
 
 
-.lightbox1:target { display: block; }
+.lightbox2:target { display: block; }
+
